@@ -8,7 +8,7 @@ import java.io.IOException;
 public class GreetingServer {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        System.out.println("Hello gRPC");
+        System.out.println("Hello I'm gRPC server");
 
         Server server = ServerBuilder.forPort(50051)
                 .build();
