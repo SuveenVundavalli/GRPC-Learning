@@ -6,15 +6,16 @@ option java_package = "com.suveen.grpc.proto.calculator";
 option java_multiple_files = true;
 
 service CalculatorService {
-    rpc Sum(SumRequest) returns (SumResponse) {}
+  rpc Sum (SumRequest) returns (SumResponse) {
+  }
 }
 
 message SumRequest {
-    int32 firstNumber = 1;
-    int32 secondNumber = 2;
+  int32 firstNumber = 1;
+  int32 secondNumber = 2;
 
 }
 
 message SumResponse {
-    int32 sum = 1;
+  int32 sum = 1;
 }

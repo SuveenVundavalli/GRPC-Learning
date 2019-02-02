@@ -5,6 +5,8 @@ package dummy;
 option java_package = "com.suveen.grpc.proto.dummy";
 option java_multiple_files = true;
 
-message DummyMessage {}
+message DummyMessage {
+}
 
-service DummyService {}
+service DummyService {
+}
